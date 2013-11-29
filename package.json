@@ -1,0 +1,51 @@
+{
+  "name": "achiiive-fonts",
+  "version": "0.0.0",
+  "description": "official web-fonts for achiiive",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:achiiive/achiiive-fonts.git"
+  },
+  "author": "yu123",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/achiiive/achiiive-fonts/issues"
+  },
+  "homepage": "https://github.com/achiiive/achiiive-fonts",
+  "dependencies": {
+    "async": "~0.1.22",
+    "coffee-script": "~1.3.3",
+    "colors": "~0.6.0-1",
+    "dateformat": "1.0.2-1.2.3",
+    "eventemitter2": "~0.4.9",
+    "findup-sync": "~0.1.0",
+    "glob": "~3.1.21",
+    "hooker": "~0.2.3",
+    "iconv-lite": "~0.2.5",
+    "minimatch": "~0.2.6",
+    "nopt": "~1.0.10",
+    "rimraf": "~2.0.2",
+    "lodash": "~0.9.0",
+    "underscore.string": "~2.2.0-rc",
+    "which": "~1.0.5",
+    "js-yaml": "~2.0.2"
+  },
+  "devDependencies": {
+    "temporary": "~0.0.4",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "difflet": "~0.2.3",
+    "semver": "2.1.0",
+    "shelljs": "~0.2.5",
+    "grunt-webfont": "~0.2.1",
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}

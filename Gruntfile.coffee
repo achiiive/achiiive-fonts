@@ -16,6 +16,7 @@ module.exports = (grunt) ->
         dest: 'fonts'
         destCss: 'stylesheets/fonts'
         options:
+          hashes: false
           stylesheet: 'scss'
           relativeFontPath: ''
           templateOptions:
